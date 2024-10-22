@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/PingBouncingBalls.dir/main.cc.o -c /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/main.cc",
+  "file": "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/main.cc",
+  "output": "CMakeFiles/PingBouncingBalls.dir/main.cc.o"
+}
+]
