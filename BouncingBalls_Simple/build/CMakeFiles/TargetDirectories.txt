@@ -1,3 +1,0 @@
-/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build/CMakeFiles/PingBouncingBalls.dir
-/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build/CMakeFiles/edit_cache.dir
-/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build/CMakeFiles/rebuild_cache.dir
