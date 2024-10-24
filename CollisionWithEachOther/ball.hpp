@@ -11,25 +11,42 @@ class Ball{
   Ball(float x, float y, float vx, float vy, float radius, Color color) : x(x), y(y), vx(vx), vy(vy), radius(radius), color(color) {};
 
   void update(std::tuple<float,float> zone, float &zoneRadius, float gravity) {
+    vy += gravity;
+
     x += vx;
     y += vy;
+  }
 
-    float dx = std::get<0>(zone);
-    float dy = std::get<1>(zone);
+  bool checkCollision(Ball& other) {
+    float dx = x - other.x;
+    float dy = y - other.y;
     float distance = std::sqrt(dx*dx+dy*dy);
 
-    if(distance+radius > zoneRadius) {
-      float normal_x = dx/distance;
-      float normal_y = dy/distance;
+    return distance < radius + other.radius;
+  }
 
-      float dot_product = vx * normal_x + vy * normal_y;
-      vx -= 2.f * dot_product * normal_x;
-      vy -= 2.f * dot_product * normal_y;
+  void resolveCollision(Ball& other) {
+    float dx = x - other.x;
+    float dy = y - other.y;
+    float distance = std::sqrt(dx*dx+dy*dy);
 
-      float overlap = distance - (zoneRadius - radius);
-      x -= overlap * normal_x;
-      y -= overlap * normal_y;
-    }
+    if(distance==0) return;
+
+    float normal_x = dx/distance;
+    float normal_y = dy/distance;
+
+    // Calculate relative velocity
+    float relative_x = vx - other.vx;
+    float relative_y = vy - other.vy;
+
+    float dot_product = vx * normal_x + vy * normal_y;
+    if(dot_product > 0) return;
+
+    float impulse = 2 * dot_product / (radius + other.radius);
+    vx += impulse * normal_x/2;
+    vy += impulse * normal_y/2;
+    other.vx += impulse * normal_x/2;
+    other.vy += impulse * normal_y/2;
   }
 
   void draw() {
