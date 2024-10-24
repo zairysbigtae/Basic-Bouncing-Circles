@@ -25,7 +25,7 @@ int main() {
 
   std::tuple<int, int> circle_center = std::make_tuple(
         screen_width - screen_width/2, screen_height - screen_height/2);
-  float circle_radius = screen_width/48;
+  float circle_radius = screen_width/4;
 
   while(!WindowShouldClose()) {
     BeginDrawing();
