@@ -29,10 +29,10 @@ int main() {
 
   while(!WindowShouldClose()) {
     BeginDrawing();
+    ClearBackground(BLACK);
 
     DrawCircle(std::get<0>(circle_center), std::get<1>(circle_center), circle_radius, WHITE);
 
-    ClearBackground(BLACK);
     for(auto& ball : balls) {
       ball.draw();
       ball.update(std::make_tuple(std::get<0>(circle_center), std::get<1>(circle_center)), circle_radius, 0.2f);

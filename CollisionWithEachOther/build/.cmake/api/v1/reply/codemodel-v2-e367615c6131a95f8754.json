@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BouncingBallsWithCollisionOnEachOther",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BouncingBallsWithCollisionOnEachOther::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BouncingBallsWithCollisionOnEachOther-Debug-6e2d945eef7e9e16a1f4.json",
+					"name" : "BouncingBallsWithCollisionOnEachOther",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CollisionWithEachOther/build",
+		"source" : "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CollisionWithEachOther"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

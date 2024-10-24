@@ -11,11 +11,13 @@ class Ball{
   Ball(float x, float y, float vx, float vy, float radius, Color color) : x(x), y(y), vx(vx), vy(vy), radius(radius), color(color) {};
 
   void update(std::tuple<float,float> zone, float &zoneRadius, float gravity) {
+    vy += gravity;
+
     x += vx;
     y += vy;
 
-    float dx = std::get<0>(zone);
-    float dy = std::get<1>(zone);
+    float dx = x - std::get<0>(zone);
+    float dy = y - std::get<1>(zone);
     float distance = std::sqrt(dx*dx+dy*dy);
 
     if(distance+radius > zoneRadius) {
