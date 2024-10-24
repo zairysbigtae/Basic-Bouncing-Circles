@@ -8,17 +8,17 @@ int main() {
   int fps = 30;
 
   InitWindow(screen_width, screen_height, "Bouncing Balls Collision With Each Other");
-  SetTargetFPS(30);
+  SetTargetFPS(fps);
 
   std::vector<Ball> balls;
 
   for(int i=0;i<5;i++) {
     balls.emplace_back(
-      GetRandomValue(0,screen_width),
-      GetRandomValue(0,screen_height),
-      1.f,
-      1.f,
-      20.f,
+      screen_width/2,
+      screen_height/2,
+      1,
+      1,
+      20,
       BLACK
     );
   }
@@ -29,13 +29,13 @@ int main() {
 
   while(!WindowShouldClose()) {
     BeginDrawing();
-    ClearBackground(BLACK);
 
     DrawCircle(std::get<0>(circle_center), std::get<1>(circle_center), circle_radius, WHITE);
 
+    ClearBackground(BLACK);
     for(auto& ball : balls) {
       ball.draw();
-      ball.update(std::make_tuple(std::get<0>(circle_center), std::get<1>(circle_center)), circle_radius, .2f);
+      ball.update(std::make_tuple(std::get<0>(circle_center), std::get<1>(circle_center)), circle_radius, 0.2f);
     }
 
     EndDrawing();
