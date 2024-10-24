@@ -1,6 +1,7 @@
 #include <raylib.h>
 #include "ball.hpp"
 #include <vector>
+#include <string>
 
 int main() {
   const int screen_width = 680;
@@ -11,15 +12,16 @@ int main() {
   SetTargetFPS(fps);
 
   std::vector<Ball> balls;
+  std::vector<Color> colors = { BLACK, RED, GREEN, BLUE, YELLOW, MAGENTA };
 
   for(int i=0;i<5;i++) {
     balls.emplace_back(
-      screen_width/2,
-      screen_height/2,
+      GetRandomValue(0, screen_width),
+      GetRandomValue(0, screen_height),
       1,
       1,
       20,
-      BLACK
+      colors[GetRandomValue(0, colors.size())]
     );
   }
 

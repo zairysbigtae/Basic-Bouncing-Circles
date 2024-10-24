@@ -36,6 +36,8 @@ int main() {
     Sound ping_sfx = LoadSound("Ping.mp3");
     Sound ping_sfx2 = LoadSound("Ping.mp3");
 
+    std::vector<Color> colors = { BLACK, RED, GREEN, BLUE, YELLOW, MAGENTA, WHITE };
+
     for(int i=0;i<2;i++) {
         if(i==1) {
             balls.emplace_back(
@@ -44,7 +46,7 @@ int main() {
                 2.0f,
                 2.0f,
                 6.0f,
-                GREEN,
+                colors[i],
                 ping_sfx,
                 ping_sfx2);
         } else {
@@ -54,7 +56,7 @@ int main() {
                 2.0f,
                 2.0f,
                 6.0f,
-                BLACK,
+                colors[i],
                 ping_sfx,
                 ping_sfx2);
         }
