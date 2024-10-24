@@ -69,7 +69,10 @@
     "ios": "cpp",
     "locale": "cpp",
     "queue": "cpp",
-    "stack": "cpp"
+    "stack": "cpp",
+    "numeric": "cpp",
+    "__split_buffer": "cpp",
+    "execution": "cpp"
   },
   "cmake.sourceDirectory": "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CollisionWithEachOther"
 }
