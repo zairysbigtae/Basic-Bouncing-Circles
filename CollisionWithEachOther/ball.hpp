@@ -4,13 +4,14 @@
 #include <cmath>
 #include <chrono>
 #include <thread>
+#include <cstdio>
 
 class Ball{
   public:
-  float x, y, vx, vy, radius;
+  float x, y, vx, vy, radius, cor, lastCorModificationTime;
   Color color;
 
-  Ball(float x, float y, float vx, float vy, float radius, Color color) : x(x), y(y), vx(vx), vy(vy), radius(radius), color(color) {};
+  Ball(float x, float y, float vx, float vy, float radius, Color color) : x(x), y(y), vx(vx), vy(vy), radius(radius), cor(1.0f), color(color), lastCorModificationTime(0.0f) {};
 
   void update(std::tuple<float,float> zone, float &zoneRadius, float gravity) {
     vy += gravity;
@@ -62,9 +63,6 @@ class Ball{
       float v1t = vx * tangentX + vy * tangentY;
       float v2t = other.vx * tangentX + other.vy * tangentY;
 
-      // Calculate the coefficient of restitution (COR)
-      float cor = 1.f; // adjust this value to change the bounciness of the collision
-
       // Update the velocities of the circles after the collision
       vx = (v1n * cor) * normalX + v1t * tangentX;
       vy = (v1n * cor) * normalY + v1t * tangentY;
@@ -76,7 +74,34 @@ class Ball{
       y += (radius + other.radius - distance) * normalY;
       other.x -= (radius + other.radius - distance) * normalX;
       other.y -= (radius + other.radius - distance) * normalY;
+
     }
+    modifyCor(cor);
+    seeCorValue(cor);
+  }
+
+  void modifyCor(float& cor) {
+    float currentTime = GetTime();
+
+    if(IsKeyDown(KEY_DOWN)) {
+      if(currentTime - lastCorModificationTime >= .1f) {
+        cor-=0.01f;
+        lastCorModificationTime = currentTime;
+      }
+    } 
+    
+    else if(IsKeyDown(KEY_UP)) {
+      if(currentTime - lastCorModificationTime >= .1f) {
+        cor+=0.01f;
+        lastCorModificationTime = currentTime;
+      }
+    }
+  }
+
+  void seeCorValue(float& cor) {
+    char corStr[10];
+    sprintf(corStr, "%f", cor);
+    DrawText(corStr, 10, 10, 20, RED);
   }
 
   void draw() {

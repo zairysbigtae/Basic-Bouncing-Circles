@@ -13,7 +13,7 @@ int main() {
   std::vector<Ball> balls;
   std::vector<Color> colors = { BLACK, RED, GREEN, BLUE, YELLOW, MAGENTA };
 
-  for(int i=0;i<6;i++) {
+  for(int i=0;i<5;i++) {
     balls.emplace_back(
       GetRandomValue(0, screen_width),
       GetRandomValue(0, screen_height),
@@ -36,7 +36,7 @@ int main() {
 
     for(auto& ball : balls) {
       ball.draw();
-      ball.update(std::make_tuple(std::get<0>(circle_center), std::get<1>(circle_center)), circle_radius, 0.2f);
+      ball.update(std::make_tuple(std::get<0>(circle_center), std::get<1>(circle_center)), circle_radius, 0.f);
       
       for(size_t i=0;i<balls.size();i++) {
         if(i<balls.size()-1) {
