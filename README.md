@@ -16,5 +16,5 @@ and fun fact: this is my first repository with .git haha
 wget https://github.com/zairysbigtae/Basic-Bouncing-Circles/tree/main/all_exes
 ```  
 ```
-./PingBouncingBalls
+cd all_exes; ./PingBouncingBalls
 ```
