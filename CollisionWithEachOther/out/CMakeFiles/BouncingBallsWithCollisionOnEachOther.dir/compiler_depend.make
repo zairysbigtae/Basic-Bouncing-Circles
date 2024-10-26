@@ -35,6 +35,7 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
@@ -46,15 +47,19 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
   /usr/include/bits/types.h \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__locale_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/types/error_t.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_sched_param.h \
@@ -121,6 +126,7 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
   /usr/include/c++/14.2.1/concepts \
   /usr/include/c++/14.2.1/cstddef \
   /usr/include/c++/14.2.1/cstdint \
+  /usr/include/c++/14.2.1/cstdio \
   /usr/include/c++/14.2.1/ctime \
   /usr/include/c++/14.2.1/cwchar \
   /usr/include/c++/14.2.1/debug/assertions.h \
@@ -168,6 +174,7 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
@@ -189,6 +196,8 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 /usr/include/sys/select.h:
 
 /usr/include/sys/cdefs.h:
+
+/usr/include/stdio.h:
 
 /usr/include/stdint.h:
 
@@ -242,13 +251,25 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 
 /usr/include/c++/14.2.1/iosfwd:
 
-/usr/include/c++/14.2.1/initializer_list:
+/usr/include/c++/14.2.1/ext/type_traits.h:
 
-/usr/include/bits/types/struct_timeval.h:
+/usr/include/c++/14.2.1/ext/numeric_traits.h:
 
-/usr/include/bits/types/struct_sched_param.h:
+/usr/include/c++/14.2.1/tr1/bessel_function.tcc:
 
-/usr/include/bits/waitflags.h:
+/usr/include/c++/14.2.1/ext/alloc_traits.h:
+
+/usr/include/c++/14.2.1/debug/debug.h:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/14.2.1/debug/assertions.h:
+
+/usr/include/c++/14.2.1/cwchar:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/bits/sched.h:
 
 /usr/include/bits/types/clockid_t.h:
 
@@ -272,19 +293,17 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 
 /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CollisionWithEachOther/ball.hpp:
 
-/usr/include/c++/14.2.1/cmath:
-
-/usr/include/asm/errno.h:
-
 /usr/include/bits/thread-shared-types.h:
 
 /usr/include/bits/mathcalls-helper-functions.h:
 
 /usr/include/bits/types/sigset_t.h:
 
-/usr/include/bits/stdint-uintn.h:
+/usr/include/bits/types/struct_timeval.h:
 
-/usr/include/bits/sched.h:
+/usr/include/asm/errno.h:
+
+/usr/include/c++/14.2.1/cmath:
 
 /usr/include/bits/setjmp.h:
 
@@ -292,11 +311,9 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
+/usr/include/bits/types/__fpos64_t.h:
+
 /usr/include/c++/14.2.1/bits/alloc_traits.h:
-
-/usr/include/c++/14.2.1/tr1/bessel_function.tcc:
-
-/usr/include/c++/14.2.1/ext/alloc_traits.h:
 
 /usr/include/bits/struct_mutex.h:
 
@@ -308,10 +325,6 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 
 /usr/include/c++/14.2.1/bits/functexcept.h:
 
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/14.2.1/bits/refwrap.h:
-
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/bits/time64.h:
@@ -321,10 +334,6 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/include/bits/byteswap.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
@@ -340,12 +349,6 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 
 /usr/include/c++/14.2.1/backward/binders.h:
 
-/usr/include/c++/14.2.1/tr1/gamma.tcc:
-
-/usr/include/c++/14.2.1/bits/version.h:
-
-/usr/include/bits/types/mbstate_t.h:
-
 /usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/features.h:
@@ -354,9 +357,13 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 
 /usr/include/bits/types/clock_t.h:
 
+/usr/include/bits/types/__fpos_t.h:
+
 /usr/include/bits/mathcalls.h:
 
 /usr/include/bits/types/locale_t.h:
+
+/usr/include/c++/14.2.1/cstdio:
 
 /usr/include/bits/floatn.h:
 
@@ -392,7 +399,9 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 
 /usr/include/c++/14.2.1/bits/stl_construct.h:
 
-/usr/include/c++/14.2.1/ext/type_traits.h:
+/usr/include/c++/14.2.1/initializer_list:
+
+/usr/include/bits/types/struct_FILE.h:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -406,6 +415,24 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 
 /usr/include/c++/14.2.1/ctime:
 
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/bits/types/struct_sched_param.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/c++/14.2.1/tr1/gamma.tcc:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/c++/14.2.1/bits/version.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/c++/14.2.1/bits/refwrap.h:
+
 /usr/include/bits/types/struct_tm.h:
 
 /usr/include/bits/wchar.h:
@@ -413,8 +440,6 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 /usr/include/bits/iscanonical.h:
 
 /usr/include/c++/14.2.1/bits/stl_iterator.h:
-
-/usr/include/c++/14.2.1/ext/numeric_traits.h:
 
 /usr/include/bits/timesize.h:
 
@@ -466,6 +491,8 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 
 /usr/include/bits/types/__mbstate_t.h:
 
+/usr/include/bits/stdio_lim.h:
+
 /usr/include/bits/time.h:
 
 /usr/include/c++/14.2.1/bits/predefined_ops.h:
@@ -479,8 +506,6 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 /usr/include/c++/14.2.1/bits/memoryfwd.h:
 
 /usr/include/c++/14.2.1/bits/requires_hosted.h:
-
-/usr/include/c++/14.2.1/debug/debug.h:
 
 /usr/include/bits/types/time_t.h:
 
@@ -500,6 +525,8 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 
 /usr/include/c++/14.2.1/thread:
 
+/usr/include/bits/types/cookie_io_functions_t.h:
+
 /usr/include/c++/14.2.1/bits/stl_uninitialized.h:
 
 /usr/include/c++/14.2.1/bits/stringfwd.h:
@@ -507,10 +534,6 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/c++/14.2.1/bits/this_thread_sleep.h:
-
-/usr/include/pthread.h:
-
-/usr/include/c++/14.2.1/debug/assertions.h:
 
 /usr/local/include/raylib.h:
 
@@ -531,5 +554,3 @@ CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o: /home/zairysbigt
 /usr/include/c++/14.2.1/bits/invoke.h:
 
 /usr/include/c++/14.2.1/cstdint:
-
-/usr/include/c++/14.2.1/cwchar:
