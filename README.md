@@ -12,5 +12,9 @@ and fun fact: this is my first repository with .git haha
 
 ### How to run it
 
-```wget https://github.com/zairysbigtae/Basic-Bouncing-Circles/tree/main/all_exes```  
-```./PingBouncingBalls```
+```
+wget https://github.com/zairysbigtae/Basic-Bouncing-Circles/tree/main/all_exes
+```  
+```
+./PingBouncingBalls
+```
