@@ -1,5 +1,5 @@
 CMakeFiles/PingBouncingBalls.dir/main.cc.o: \
- /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/main.cc \
+ /home/zairysbigtae/fork-Basic-Bouncing-Circles/Simple/main.cc \
  /usr/include/stdc-predef.h /usr/include/c++/14.2.1/cstdlib \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -171,4 +171,4 @@ CMakeFiles/PingBouncingBalls.dir/main.cc.o: \
  /usr/include/c++/14.2.1/bits/stl_numeric.h \
  /usr/include/c++/14.2.1/pstl/glue_numeric_defs.h \
  /usr/include/c++/14.2.1/pstl/execution_defs.h \
- /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/ball.hpp
+ /home/zairysbigtae/fork-Basic-Bouncing-Circles/Simple/ball.hpp
