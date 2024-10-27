@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/zairysbigtae/fork-Basic-Bouncing-Circles/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

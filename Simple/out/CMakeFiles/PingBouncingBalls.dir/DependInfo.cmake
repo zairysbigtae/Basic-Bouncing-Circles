@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/main.cc" "CMakeFiles/PingBouncingBalls.dir/main.cc.o" "gcc" "CMakeFiles/PingBouncingBalls.dir/main.cc.o.d"
+  "/home/zairysbigtae/fork-Basic-Bouncing-Circles/Simple/main.cc" "CMakeFiles/PingBouncingBalls.dir/main.cc.o" "gcc" "CMakeFiles/PingBouncingBalls.dir/main.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
