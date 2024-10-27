@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zairysbigtae/fork-Basic-Bouncing-Circles/Simple
+CMAKE_SOURCE_DIR = /home/zairysbigtae/cpp_projects/raylib/bouncing_balls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zairysbigtae/fork-Basic-Bouncing-Circles/Simple/out
+CMAKE_BINARY_DIR = /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/out
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/PingBouncingBalls.dir/clean
 CMakeFiles/PingBouncingBalls.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PingBouncingBalls.dir/build.make CMakeFiles/PingBouncingBalls.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PingBouncingBalls.dir/build.make CMakeFiles/PingBouncingBalls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zairysbigtae/fork-Basic-Bouncing-Circles/Simple/out/CMakeFiles --progress-num=1,2 "Built target PingBouncingBalls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/out/CMakeFiles --progress-num=1,2 "Built target PingBouncingBalls"
 .PHONY : CMakeFiles/PingBouncingBalls.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PingBouncingBalls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zairysbigtae/fork-Basic-Bouncing-Circles/Simple/out/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/out/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PingBouncingBalls.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zairysbigtae/fork-Basic-Bouncing-Circles/Simple/out/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/out/CMakeFiles 0
 .PHONY : CMakeFiles/PingBouncingBalls.dir/rule
 
 # Convenience name for target.

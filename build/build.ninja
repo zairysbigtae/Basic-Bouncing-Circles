@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/zairysbigtae/fork-Basic-Bouncing-Circles/build/
+cmake_ninja_workdir = /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target BouncingBallsWithCollisionOnEachOther
 
@@ -77,7 +77,7 @@ build BouncingBallsWithCollisionOnEachOther: CXX_EXECUTABLE_LINKER__BouncingBall
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/zairysbigtae/fork-Basic-Bouncing-Circles/build && /usr/bin/ccmake -S/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CollisionWithEachOther -B/home/zairysbigtae/fork-Basic-Bouncing-Circles/build
+  COMMAND = cd /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build && /usr/bin/ccmake -S/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CollisionWithEachOther -B/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/zairysbigtae/fork-Basic-Bouncing-Circles/build && /usr/bin/cmake --regenerate-during-build -S/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CollisionWithEachOther -B/home/zairysbigtae/fork-Basic-Bouncing-Circles/build
+  COMMAND = cd /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build && /usr/bin/cmake --regenerate-during-build -S/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CollisionWithEachOther -B/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -105,7 +105,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/zairysbigtae/fork-Basic-Bouncing-Circles/build
+# Folder: /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build
 
 build all: phony BouncingBallsWithCollisionOnEachOther
 

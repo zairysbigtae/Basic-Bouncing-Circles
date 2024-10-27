@@ -46,7 +46,7 @@ int main() {
                 2.0f,
                 2.0f,
                 6.0f,
-                YELLOW,
+                colors[i],
                 ping_sfx,
                 ping_sfx2);
         } else {
@@ -56,7 +56,7 @@ int main() {
                 2.0f,
                 2.0f,
                 6.0f,
-                YELLOW,
+                colors[i],
                 ping_sfx,
                 ping_sfx2);
         }

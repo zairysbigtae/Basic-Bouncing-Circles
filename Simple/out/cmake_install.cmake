@@ -1,4 +1,4 @@
-# Install script for directory: /home/zairysbigtae/fork-Basic-Bouncing-Circles/Simple
+# Install script for directory: /home/zairysbigtae/cpp_projects/raylib/bouncing_balls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/zairysbigtae/fork-Basic-Bouncing-Circles/Simple/out/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/out/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

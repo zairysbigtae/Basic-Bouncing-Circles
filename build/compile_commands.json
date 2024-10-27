@@ -1,6 +1,6 @@
 [
 {
-  "directory": "/home/zairysbigtae/fork-Basic-Bouncing-Circles/build",
+  "directory": "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/build",
   "command": "/usr/bin/g++ -g -o CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o -c /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CollisionWithEachOther/main.cc",
   "file": "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CollisionWithEachOther/main.cc",
   "output": "CMakeFiles/BouncingBallsWithCollisionOnEachOther.dir/main.cc.o"

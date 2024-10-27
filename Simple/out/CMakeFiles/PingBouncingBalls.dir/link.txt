@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/PingBouncingBalls.dir/main.cc.o -o PingBouncingBalls  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.a
+/usr/bin/c++ -rdynamic CMakeFiles/PingBouncingBalls.dir/main.cc.o -o PingBouncingBalls  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.a
