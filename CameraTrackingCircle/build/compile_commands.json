@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CameraTrackingCircle/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/CameraTrackingCircle.dir/main.cc.o -c /home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CameraTrackingCircle/main.cc",
+  "file": "/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CameraTrackingCircle/main.cc",
+  "output": "CMakeFiles/CameraTrackingCircle.dir/main.cc.o"
+}
+]

@@ -1,0 +1,3 @@
+/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CameraTrackingCircle/out/CMakeFiles/CameraTrackingCircle.dir
+/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CameraTrackingCircle/out/CMakeFiles/edit_cache.dir
+/home/zairysbigtae/cpp_projects/raylib/bouncing_balls/CameraTrackingCircle/out/CMakeFiles/rebuild_cache.dir
