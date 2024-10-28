@@ -25,7 +25,7 @@ now you can execute whatever simulations youd like!
 ```
 
 ### Running on different platforms
-[The home page for the simulations](all_webs/index.html)
+[The home page for the simulations](https://zairysbigtae.github.io/Basic-Bouncing-Circles/all_webs/index.html)  
 Are you worried about the game NOT running on other platforms? well say no more because now we have released a web browser version of this game! (android included, just scroll to the bottom of this section)
 
 now just install it using the commands below:
